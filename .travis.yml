@@ -12,7 +12,7 @@ after_script:
 - git init
 - git config user.name "rjgeek"
 - git config user.email "rxl635@student.bham.ac.uk"
-- git add .aole
+- git add .
 - git commit -m "Update docs"
 - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
 
